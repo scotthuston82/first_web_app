@@ -1,0 +1,13 @@
+!<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>gallery page</title>
+  </head>
+  <body>
+    <h1>This is the gallery page</h1>
+    <% 25.times do |i| %>
+      <img src="http://unsplash.it/200/300?random=<%=i%>">
+    <% end %>
+  </body>
+</html>
